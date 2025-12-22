@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #7F8CAA;   
+    --light-color: #EAEFEF;
+    --secondary-color: #a6cecc;
+    --secondary-color-hover: #6bb7b4;
+    --dark-color: #333446;   
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: var(--dark-color);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover {
+    color: var(--secondary-color-hover);
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+ body{
+    font-family: Arial, sans-serif;
+    /* margin: 20px; */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 16px;
+  }
+
+  
+  
+  button {
+    padding: 7px 15px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color-hover);
+  }
