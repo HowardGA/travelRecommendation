@@ -8,16 +8,29 @@
     <body>
         <nav>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="./travel_recommendation.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact-us.html">Contact Us</a></li>
             </ul>
             <form class="searchBar" role="search">
                 <input type="text" id="searchBarInput" placeholder="Enter a destination or keyword" aria-label="Search"> 
-                <button type="submit" id="btnSubmitSearch">Search</button>
+                <button type="button" id="btnSubmitSearch">Search</button>
                 <button type="reset" id="btnClearSearch">Clear</button>
             </form>
         </nav>
-        
+        <section id="home">
+            <div class="social-media-icons">
+                <div class="vertical-line"></div>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener" ><img src="./facebook.png" alt="Facebook Icon" class="social-icon"></a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener" ><img src="./twitter.png" alt="Twitter Icon" class="social-icon"></a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"><img src="./instagram.png" alt="Instagram Icon" class="social-icon"></a>
+            </div>
+            <div class="home-text">
+                <h1 class="home-title">EXPLORE YOUR DREAM DESTINATION</h1>
+                <p class="home-paragraph">It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder</p>
+            </div>
+            <div id="result-container"></div>
+        </section>
+        <script src="./travel_recommendation.js" ></script>
     </body>
 </html>
